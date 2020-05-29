@@ -5,6 +5,7 @@ import xlwt
 
 file1 = 'qiaoxun.xlsx'
 
+
 def read_excel():
   
     wb1 = xlrd.open_workbook(filename=file1)
